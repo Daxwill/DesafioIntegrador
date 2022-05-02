@@ -1,0 +1,85 @@
+.nav{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+/* link de nav*/
+#linkVerde{
+    color:green;
+}
+
+.div-der{
+    background-color: rgb( 53, 59, 60 ) ;
+    color: aliceblue;
+}
+
+.div-izq {
+    background-image: url(../Img/honolulu.jpg);
+    background-size: cover;  
+}
+/* div de honolulu y texto*/
+.row {
+    height: 450px;
+}
+/* botones */
+.btn-success {
+    background-color: green;
+}
+
+.btn-enviarForm {
+    background-color: rgb( 163, 206, 90 );
+    color: aliceblue;
+}
+
+/* boton de texto de carusel*/
+.carousel-caption {
+    text-align: right;
+    padding-left: 35%;
+    padding-bottom: 10%;
+    
+} 
+
+.carousel-item .d-block{
+    filter: brightness(60%);
+}
+/* texto sobre cards y form*/
+section{
+    padding-top: 1%;
+    text-align: center;
+}
+
+.punteado{
+    border-bottom-style: dotted;
+    border-width: 2.5px; 
+}
+
+.form{
+    display: flex;
+    justify-content: center;  
+    padding-bottom: 1%;
+}
+
+.nombre1{
+    display: flex;
+    padding-right: 10px;
+}
+.apellido1{
+    display: flex;
+    padding-left: 10px;
+}
+
+.botonForm{
+    padding-top: 1%;
+}
+ 
+.navbar-footer {
+    display: flex;
+    justify-content:space-around;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: rgb( 21, 67, 96 );
+}
+
+.navbar-footer a{
+    color: aliceblue;
+}
+
