@@ -1,0 +1,40 @@
+.nav{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+/* link de nav*/
+#linkVerde{
+    color:green;
+}
+.navbar-footer {
+    display: flex;
+    justify-content:space-around;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: rgb( 21, 67, 96 );
+}
+.navbar-footer a{
+    color: aliceblue;
+}
+.promo_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card-body {
+    margin-left: auto;
+    margin-right: auto;
+}
+.c01{
+    border-color: blue;   
+}
+.c02{
+    border-color:aqua;
+}
+.c03{
+    border-color: RGB(241, 196, 15 ) ;
+}
+.cartel_valor {
+    margin-left: auto;
+    margin-right: auto;
+}

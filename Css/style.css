@@ -42,7 +42,7 @@
     filter: brightness(60%);
 }
 /* texto sobre cards y form*/
-section{
+.cards-text{
     padding-top: 1%;
     text-align: center;
 }
@@ -82,4 +82,3 @@ section{
 .navbar-footer a{
     color: aliceblue;
 }
-
