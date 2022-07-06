@@ -24,6 +24,7 @@
 .card-body {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 .c01{
     border-color: blue;   
@@ -37,4 +38,36 @@
 .cartel_valor {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto 25px auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left:auto;
+    margin-right: auto;
+}
+#correo{
+   width: 200px;
+}
+.row{
+    margin-bottom:2%;
+    justify-content: center;
+}
+.btn {
+    background-color: RGB(151, 201, 62); 
+    border-color: RGB(151, 201, 62) ;
+}
+.totalPrecio {
+    background-color: RGB(204, 229, 255)!important;
+    border-color: RGB( 186, 219, 255) ;
+}
+.totalPrecio::placeholder {
+    color: RGB(3, 99, 182);
+}
+

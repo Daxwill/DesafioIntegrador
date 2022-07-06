@@ -13,7 +13,7 @@
             <!--El navegador top-->
               <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                   <div class="container-fluid nav">
-                  <a class="navbar-brand" href="#">
+                  <a class="navbar-brand" href="index.html">
                     Conf Bs As
                   </a>
                     <div class="nav justify-content-end">
@@ -29,9 +29,9 @@
                 </nav>
         </header>
 
-        <main>
+        <main class="container-fluid">
           <div class="promo_cards">
-            <div class="card c01" style="width: 18rem;">
+            <div class="card c01">
                 <div class="card-body">
                   <h5 class="card-title">Estudiante</h5>
                   <h6 class="card-subtitle mb-2">Tienen un descuento</h6>
@@ -39,7 +39,7 @@
                   <p class="card-text text-muted">* presentar documentación</p>
                 </div>
               </div>
-              <div class="card c02" style="width: 18rem;">
+              <div class="card c02">
                 <div class="card-body">
                   <h5 class="card-title">Trainee</h5>
                   <h6 class="card-subtitle mb-2">Tienen un descuento</h6>
@@ -47,14 +47,14 @@
                   <p class="card-text text-muted">* presentar documentación</p>
                 </div>
               </div>
-              <div class="card c03" style="width: 18rem;">
+              <div class="card c03">
                 <div class="card-body">
                   <h5 class="card-title">Junior</h5>
                   <h6 class="card-subtitle mb-2">Tienen un descuento</h6>
                   <span>15%</span>
                   <p class="card-text text-muted">* presentar documentación</p>
                 </div>
-            </div>
+              </div>
           </div>
             
             <div class="cartel_valor">
@@ -62,33 +62,47 @@
                 <h1>VALOR DE TICKET $200</h1>
             </div>
 
-            <div>
-                <form>
-                    <div>
-                        <input>
-                        <input>
-                        <input>
+          <div>
+              <form class="container-fluid" >
+                    <div class="row">
+                      <div class="col-3">
+                        <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                      </div>
+                      <div class="col-3">
+                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                      </div>
                     </div>
-                    <div>
-                        <label>Cantidad</label>
-                        <input>
+                    <div class="row">
+                      <div class="col-6">
+                        <input type="text" class="form-control" placeholder="Correo" aria-label="Email">
+                      </div>
                     </div>
-                    <div>
-                        <label>Categoria</label>
-                        <select></select>
+                    <div class="row">
+                      <div class="col-3">
+                        <label for="inputEmail4" class="form-label">Cantidad</label>
+                        <input type="number" class="form-control" id="cantidadTicket" name="cantidadTicket" placeholder="cantidad">
+                      </div>
+                      <div class="col-3">
+                        <label class="form-label">Categoria</label>
+                        <select id="inputState" class="form-select">
+                          <option selected>Estudiante</option>
+                          <option>Trainee</option>
+                          <option>Junior</option>
+                        </select>
+                      </div>
                     </div>
-                    <div>
-                        <input disabled>
-                        <div class="d-grid gap-2 col-6 mx-auto">
-                            <button class="btn btn-primary" type="button">Borrar</button>
-                            <button class="btn btn-primary" type="button">Resumen</button>
-                          </div>
+                    <div class="row">
+                      <div class="col-6">
+                         <input class="form-control totalPrecio " placeholder="Total a Pagar:$ " readonly>
+                      </div>
                     </div>
-                </form>
-            </div>
-
-
-
+                    <div class="row">
+                        <input class="btn btn-primary col-3" type="reset" value="Borrar">
+                       <!-- <button class="btn btn-primary " type="reset">Borrar</button> -->
+                        <button class="btn btn-primary col-3" type="submit">Resumen</button>
+                    </div>
+              </form>
+          </div>
         </main>
 
         <footer>
