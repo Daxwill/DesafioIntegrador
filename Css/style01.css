@@ -66,8 +66,11 @@ form{
 .totalPrecio {
     background-color: RGB(204, 229, 255)!important;
     border-color: RGB( 186, 219, 255) ;
-}
-.totalPrecio::placeholder {
     color: RGB(3, 99, 182);
+    border-left: none ;
+    text-align: right;
 }
-
+.totalPrecio span {
+    border-right: none;
+}
+    
